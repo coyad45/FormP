@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
 body{
     display: grid;
     place-content: center;
     padding: 0;
     margin: 0;
+    font-family: "Karla", sans-serif;
+    
 }
-
+h1{
+    margin: 16px;
+}
 #name{
     display: flex;
    
@@ -14,16 +21,24 @@ body{
     flex-direction: column;
     align-items: start;
     margin: 16px;
+    gap: 10px;
 }
 .email{
     display: flex;
     flex-direction: column;
     margin: 16px;
+    gap: 10px;
+}
+.texto{
+    height: 30px;
 }
 #Query{
     display: flex;
     flex-direction: column;
     margin: 16px;
+}
+#message{
+    height: 100px;
 }
 .radio-query{
     display: flex;
@@ -31,4 +46,17 @@ body{
 }
 .radio-query .contenedor{
     display: block;
+}
+.check{
+    margin: 16px;
+}
+input[type="text"]{
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+#btn{
+    width: calc(100% - 32px);
+    height: 35px;
+    box-sizing: border-box;
+    margin: 16px;
 }
