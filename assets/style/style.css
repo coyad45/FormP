@@ -1,0 +1,34 @@
+body{
+    display: grid;
+    place-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+#name{
+    display: flex;
+   
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 16px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+#Query{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+.radio-query{
+    display: flex;
+    justify-content: space-around;
+}
+.radio-query .contenedor{
+    display: block;
+}
